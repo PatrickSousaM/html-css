@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*
+em html id = em css #
+tudo em html e class em css e .
+so pode se usar um id por documento
+se precisar configurar outros usar o class
+*/
+
+body{
+    background-color: rgb(200, 255, 237);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(1, 52, 35);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(60, 81, 75);
+    color: white;
+}
+
+h2{
+    color: rgb(5, 148, 100);
+}
+
+.basico{
+    color: rgb(7, 246, 47);
+}
+
+.intermediario{
+    color: rgb(226, 226, 3);
+}
+
+.avancado{
+    color: red;
+}
